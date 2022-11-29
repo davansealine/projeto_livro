@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3{
+    font-family: 'Nerko One', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    padding: 16px 0;
+    background-color: violet;
+    color: #ecf0f1;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+header nav a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section{
+    color: violet;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    height: 400px;
+    width: 650px;
+    margin-right: 32px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    width: 100%;
+    margin-top: 50px;
+}
+    
+.articles article {
+    width: 30%; 
+}
+
+section{
+    padding: 16px 0;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+.articles article a{
+    background-color: rgb(238, 26, 238);
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none; 
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 8pxpx;
+}
+
+section h2{
+    font-size: 32px;
+    
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: violet;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: pink;
+}
+
+input:focus, textarea:focus{
+    outline-color: pink;
+}
+
+footer{
+    background-color: violet;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+#about, #contact{
+    background-color: #ecf0f1;
+ }
+ 
+ #books{
+     background-color: rgb(247, 228, 247);
+ }
+ 
